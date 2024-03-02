@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>My Portfolio</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h2>Welcome to My Portfolio</h2>
+      <h2 class="protest-riot-regular">mohamed bayoumi</h2>
+      <img class="myphoto" src="./111.jpg" alt="me">
+      <p>I am a web developer passionate about creating amazing user experiences.</p>
+      <a href="#contact" class="btn">Get In Touch</a>
+    </div>
+  </header>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Welcome to my portfolio website! I am a web developer passionate about creating interactive and user-friendly websites.</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>fitness website</h3>
+        <p>website can help you to keek track your health and dite and calculate bmi and calories</p>
+        <a href="#" class="btn">View Project</a>
+      </div>
+      <div class="project">
+        <h3>movies website</h3>
+        <p>website can help you to watch trending movies and help you by recomend movies as you like</p>
+        <a href="#" class="btn">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form id="contact-form" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <br>
+        <br>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <br>
+        <br>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <br>
+        <br>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
